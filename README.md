@@ -17,6 +17,19 @@ features to your application.
 [![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-basic.svg)](https://packagist.org/packages/yiisoft/yii2-app-basic)
 [![Build Status](https://travis-ci.org/yiisoft/yii2-app-basic.svg?branch=master)](https://travis-ci.org/yiisoft/yii2-app-basic)
 
+Instruciones
+-------------------
+1. leer el sigiuente documento.
+2. leer la guia de yii especificamente la parte de migraciones y de controladores REST.
+3. una ves instalada la applicacion bajar un programa para hacer purebas a los endpoints(como postman.).
+    3.a leer la documentacion de el Active controller para darse una idea de como consumir unservicio
+    3.b un ejemplo de esto seria : 
+           METODO GET   localhost/RedSocial/web/index.php?r=v1-image
+           METODO GET   localhost/RedSocial/web/index.php?r=v1-image/view
+           METODO POST  localhost/RedSocial/web/index.php?r=v1-image/create
+    3.c leer la documentacion de yii2 para el ActiveController.
+
+
 DIRECTORY STRUCTURE
 -------------------
 
